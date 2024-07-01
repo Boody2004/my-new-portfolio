@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Showcase", link: "#projects" },
+  { name: "Services", link: "#services" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -103,6 +103,7 @@ export const projects = [
     link: "/ui.apple.com",
   },
 ];
+
 export const allProjects = [
   {
     id: 1,
@@ -271,13 +272,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    url: "https://github.com/Boody2004",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/instagram.svg",
+    url: "https://www.instagram.com/boody_04/",
   },
   {
     id: 3,
     img: "/link.svg",
+    url: "https://www.linkedin.com/in/abdelrahman-atef-ali-42579b206/",
   },
 ];

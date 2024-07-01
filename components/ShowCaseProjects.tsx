@@ -1,17 +1,13 @@
 "use client";
-import { projects } from "@/data";
+import { allProjects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 import { FaLocationArrow } from "react-icons/fa6";
-import MagicButton from "./MagicButton";
 
-const RecentProjects = () => {
+const ShowCaseProjects = () => {
   return (
     <div className="py-20">
-      <h1 className="heading">
-        A small selection of <span className="text-main">recent projects</span>
-      </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
-        {projects.map((item) => (
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mb-10">
+        {allProjects.map((item) => (
           <div
             className="h-[32rem] sm:h-[41rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
             key={item.id}
@@ -73,16 +69,9 @@ const RecentProjects = () => {
             </PinContainer>
           </div>
         ))}
-        <a href="/showcase">
-          <MagicButton
-            title="View All Projects"
-            icon={<FaLocationArrow />}
-            position="right"
-          />
-        </a>
       </div>
     </div>
   );
 };
 
-export default RecentProjects;
+export default ShowCaseProjects;

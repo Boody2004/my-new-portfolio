@@ -1,9 +1,10 @@
 import React from "react";
-import ShowCaseProjects from "@/components/ShowCaseProjects";
+import RecentAllProjects from "@/components/RecentAllProjects";
 import Footer from "@/components/Footer";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { navItems } from "@/data";
 import SecHero from "@/components/SecHero";
+import { LinkPreviewDemo } from "@/components/LinkPreviewDemo";
 
 const showcase = () => {
   return (
@@ -11,7 +12,8 @@ const showcase = () => {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <SecHero />
-        <ShowCaseProjects />
+        <LinkPreviewDemo />
+        <RecentAllProjects />
         <Footer />
       </div>
     </main>

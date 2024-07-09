@@ -5,7 +5,7 @@ import MagicButton from "./MagicButton";
 
 const Footer = () => {
   return (
-    <footer className="w-full pt-20 pb-10" id="contact">
+    <footer id="contact" className="w-full pt-20 md:pt-24 lg:pt-36 pb-10">
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
         <img
           src="/footer-grid.svg"
@@ -15,8 +15,8 @@ const Footer = () => {
       </div>
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-main">your</span> digital presence
-          to the next level<span className="text-main">?</span>
+          Ready to Take<span className="text-main"> Your </span>Digital Presence
+          to the Next Level<span className="text-main">?</span>
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Reach out to me today and let&apos;s discuss how I can help you
@@ -30,7 +30,7 @@ const Footer = () => {
           />
         </a>
       </div>
-      <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
+      <div className="flex md:flex-row flex-col justify-between items-center gap-4 mt-8 md:mt-12 lg:mt-16">
         <p className="md:text-base text-sm md:font-normal font-light">
           © 2024 Abdelrahman Atef Ali. All rights reserved.
         </p>

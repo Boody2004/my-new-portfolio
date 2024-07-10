@@ -7,9 +7,9 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Launchy - Abdelrahman Atef's Web Development Innovations",
+  title: "Abdelrahman Atef's Web Development Innovations",
   description:
-    "Launchy showcases the innovative web development projects of Abdelrahman Atef. Established from 2020, these works highlight a commitment to creativity, cutting-edge technology, and forward momentum in the digital landscape.",
+    "Abdelrahman Atef showcases the innovative web development projects of Abdelrahman Atef. Established from 2020, these works highlight a commitment to creativity, cutting-edge technology, and forward momentum in the digital landscape.",
 };
 
 export default function RootLayout({

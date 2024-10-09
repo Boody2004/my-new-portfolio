@@ -9,7 +9,6 @@ const RecentAllProjects = () => {
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-0 md:gap-y-4 lg:gap-y-8">
         {projects.map((item) => (
           <div
-            id={item.id}
             className="h-[32rem] sm:h-[41rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
             key={item.id}
           >

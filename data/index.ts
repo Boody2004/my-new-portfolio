@@ -266,6 +266,22 @@ export const projects = [
     iconLists: ["/wp.svg", "/ui-ux.svg"],
     link: "https://mas-realestate.com",
   },
+  {
+    id: 23,
+    title: "Zia Egypt",
+    des: "Welcome to Mas Real Estate: Your Premier Real Estate Partner in Hurghada, Specializing in Unparalleled Real Estate Solutions and luxury Beachfront Villas.",
+    img: "/ppp13.png",
+    iconLists: ["/wp.svg", "/ui-ux.svg"],
+    link: "https://ziaegypt.com",
+  },
+  {
+    id: 24,
+    title: "See Fun Tours",
+    des: "Welcome to Mas Real Estate: Your Premier Real Estate Partner in Hurghada, Specializing in Unparalleled Real Estate Solutions and luxury Beachfront Villas.",
+    img: "/ppp14.png",
+    iconLists: ["/wp.svg", "/ui-ux.svg"],
+    link: "https://seefuntourseg.com",
+  },
 ];
 
 export const testimonials = [

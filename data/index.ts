@@ -366,27 +366,15 @@ export const projects = [
 
 export const testimonials = [
   {
-    quote:
-      "Abdelrahman Atef Ali's development of our Echelon Estate website has been exceptional. His innovative design skills and deep understanding of real estate have created a seamless, engaging platform that attracts more clients and elevates our brand. We highly recommend his professional services.",
-    name: "Echelon Estate (AE)",
-    title: "Dubai, UAE",
-    img: "/clients7.png",
-  },
-  {
+    id: 1,
     quote:
       "Our YRWO website, which is vital to Syrian refugee services in Malaysia. Its user-friendly and attractive design communicates our mission effectively. Abdul Rahman’s dedication and technical expertise have greatly impacted our cause. We are extremely grateful for his contribution.",
     name: "YRWO (ORG)",
     title: "Malaysia",
-    img: "/clients6.png",
+    img: "/clients5.png",
   },
   {
-    quote:
-      "A special company website was created by Abdel Rahman and Al Haqiqa has done an amazing job for our printing shop in Cairo. His attention to detail and innovative design made our platform easy to use and visually appealing. His ability to understand our needs and provide a seamless experience has greatly enhanced our online presence.",
-    name: "Cairo Press (EG)",
-    title: "Cairo, Egypt",
-    img: "/clients8.gif",
-  },
-  {
+    id: 2,
     quote:
       "Abdelrahman Atef Ali did an outstanding job on the Wesh Cylinder website. His modern, efficient, and visually appealing design perfectly represents our lantern maintenance centre. His innovative solutions and commitment to quality have improved our online visibility and customer interaction.",
     name: "Wesh Cylinder (EG)",
@@ -394,21 +382,15 @@ export const testimonials = [
     img: "/clients2.png",
   },
   {
+    id: 3,
     quote:
       "His innovative approach and attention to detail have created a stylish and functional platform that aligns with our luxury limousine brand in Switzerland. His dedication and ability to meet our needs has greatly impacted our business.",
     name: "Ali Services (CH)",
     title: "Switzerland",
-    img: "clients10.png",
+    img: "clients9.png",
   },
   {
-    quote:
-      "The UI/UX design of the company's new website Horus Trans is exceptional. Its intuitive and easy-to-use interface has improved operational efficiency and user satisfaction. His thoughtful approach and meticulous attention to detail puts us on the path to significant growth. We are extremely pleased with his work",
-    Name: "Horus Trans (EG)",
-    name: "Horus Trans (EG)",
-    title: "Egypt",
-    img: "/clients3.png",
-  },
-  {
+    id: 4,
     quote:
       "The transformation of Al Galaa Tours’ website is exceptional. His expertise in web development has clearly presented the company’s services to customers and is a visually stunning and highly functional platform. His innovative, user-centric design has enhanced our online presence and customer engagement, positioning us as a tourism company.” Leader.",
     name: "El Galaa Tours (EG)",
@@ -416,58 +398,67 @@ export const testimonials = [
     img: "/clients1.png",
   },
   {
+    id: 5,
     quote:
       "The modernization of a website has provided excellence for the creative focus. His exceptional design skills and technical expertise have created a platform that beautifully showcases our work. His commitment to excellence and ability to capture our brand has greatly enhanced our digital presence.",
     name: "Creative Focus (SA)",
     title: "Saudi Arabia",
-    img: "/clients4.png",
+    img: "/clients3.png",
   },
   {
+    id: 6,
     quote:
       "Veranda Selena Development's website build and UI/UX design is transformational. His innovative approach and attention to detail have created a platform that embodies the elegance of our residential complex in Sahl Hasheesh. His dedication has greatly enhanced our online presence.",
     name: "Veranda Selena Development (EG)",
     title: "Sahl Hasheesh, Egypt",
-    img: "/clients9.png",
+    img: "/clients7.png",
   },
   {
+    id: 7,
     quote:
       "Trulia's website is exceptional. His innovative design and technical expertise provided a functional and visually appealing platform. His ability to understand our needs and deliver a seamless user experience has dramatically improved our online presence and customer engagement.",
     name: "Trulia (EG)",
     title: "Red Sea, Egypt",
-    img: "/clients5.png",
+    img: "/clients4.png",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "Yrwo",
-    img: "/clients6.png",
-    nameImg: "/appName.svg",
+    img: "/clients1.png",
   },
   {
     id: 2,
-    name: "Wesh Cylinder",
     img: "/clients2.png",
-    nameImg: "/hostName.svg",
   },
   {
     id: 3,
-    name: "Horus Trans",
     img: "/clients3.png",
-    nameImg: "/cloudName.svg",
   },
   {
     id: 4,
-    name: "Creative Focus",
     img: "/clients4.png",
-    nameImg: "/streamName.svg",
   },
   {
     id: 5,
-    name: "Trulia",
     img: "/clients5.png",
-    nameImg: "/dockerName.svg",
+  },
+  {
+    id: 6,
+    img: "/clients10.png",
+  },
+  {
+    id: 7,
+    img: "/clients7.png",
+  },
+  {
+    id: 8,
+    img: "/clients8.png",
+  },
+  {
+    id: 9,
+    img: "/clients11.png",
   },
 ];
 

@@ -27,7 +27,7 @@ const Clients = () => {
               <div className="flex md:max-w-60 max-w-32 gap-3">
                 <img
                   src={company.img}
-                  alt={company.name}
+                  alt="client logo"
                   className="md:w-11 w-8"
                 />
                 {/* <img
@@ -36,9 +36,6 @@ const Clients = () => {
                   width={company.id === 4 || company.id === 5 ? 100 : 150}
                   className="md:w-24 w-20"
                 /> */}
-                <h1 className="my-auto md:text-xl md:block hidden font-semibold up md:w-full w-20">
-                  {company.name}
-                </h1>
               </div>
             </React.Fragment>
           ))}

@@ -12,7 +12,7 @@ const RecentProjects = () => {
       </h1>
 
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-0 md:gap-y-4 lg:gap-y-8 mt-10">
-        {projects.slice(0, 4).map((item) => (
+        {projects.slice(0, 6).map((item) => (
           <div
             className="h-[32rem] sm:h-[41rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
             key={item.id}

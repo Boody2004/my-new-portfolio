@@ -69,7 +69,13 @@ export const gridItems = [
   },
 ];
 
-export const projects = [
+export const projects: {
+  title: string;
+  des: string;
+  img: string;
+  iconLists: string[];
+  link: string;
+}[] = [
   {
     title: "Audio Lessons Saas",
     des: "This is a new SaaS project I started to improve my coding skills and explore modern development tools and workflows.",

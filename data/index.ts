@@ -71,7 +71,19 @@ export const gridItems = [
 
 export const projects = [
   {
-    id: 1,
+    title: "Audio Lessons Saas",
+    des: "This is a new SaaS project I started to improve my coding skills and explore modern development tools and workflows.",
+    img: "/pppp6.png",
+    iconLists: [
+      "/next.svg",
+      "/tailwind.svg",
+      "/vapi.svg",
+      "/clerk.svg",
+      "/supabase.svg",
+    ],
+    link: "https://audio-lessons-program-saas.vercel.app/",
+  },
+  {
     title: "Iphone 15 website",
     des: "This revision emphasizes the use of advanced technologies and highlights the dynamic and interactive elements.",
     img: "/p1.png",
@@ -85,7 +97,6 @@ export const projects = [
     link: "https://iphone-sand.vercel.app",
   },
   {
-    id: 2,
     title: "OW Bikes",
     des: "We have transformed an online store specializing in selling luxury racing wheels and spare parts.",
     img: "/ppp21.png",
@@ -93,7 +104,6 @@ export const projects = [
     link: "https://owbikes.com",
   },
   {
-    id: 3,
     title: "CSO Mainset",
     des: "CSO Mindset ™ is a strategic leadership platform designed for executives, founders, and decision-makers operating in complex environments.",
     img: "/ppp25.png",
@@ -101,7 +111,6 @@ export const projects = [
     link: "https://csomindset.com",
   },
   {
-    id: 4,
     title: "Selena Bay",
     des: "We designed the UI/UX for one of the largest internal hotels in Hurghada, Egypt.",
     img: "/ppp19.png",
@@ -109,7 +118,6 @@ export const projects = [
     link: "https://selenabay.com",
   },
   {
-    id: 5,
     title: "Brainwave",
     des: "Elevating Learning Through Engaging and Interactive Videos. Crafted with Precision and Innovation in CSS to Deliver Exceptional Educational Content and Transformative Digital Experiences.",
     img: "/p3.png",
@@ -117,7 +125,6 @@ export const projects = [
     link: "https://brainwave-sepia.vercel.app",
   },
   {
-    id: 6,
     title: "Metaverse",
     des: "Elevating Web Experiences with Cutting-Edge Animation Framer Techniques. Transforming Visions into Dynamic Digital Realities through Innovative Design and Precise Execution.",
     img: "/p4.png",
@@ -125,7 +132,6 @@ export const projects = [
     link: "https://metaverse-green-nu.vercel.app",
   },
   {
-    id: 7,
     title: "Zeta Peach",
     des: "Revolutionizing Digital Experiences with Advanced 3D Web Design. Bringing Visions to Life Through Immersive, Interactive, and Innovatively Crafted 3D Technologies and Precise Implementation.",
     img: "/p5.png",
@@ -140,7 +146,6 @@ export const projects = [
     link: "https://landing-page-zeta-peach.vercel.app",
   },
   {
-    id: 8,
     title: "Online Lessons",
     des: "We are empowering education through engaging video content and delivering interactive learning experiences to inspire and educate students everywhere.",
     img: "/p6.png",
@@ -148,7 +153,6 @@ export const projects = [
     link: "https://onlinelessons.vercel.app",
   },
   {
-    id: 9,
     title: "Dental Clinic",
     des: "Designed by Ensuring a Bright Smile Through Exceptional Web Experience.",
     img: "/p7.png",
@@ -162,7 +166,6 @@ export const projects = [
     link: "https://test-dental-clinic.vercel.app",
   },
   {
-    id: 10,
     title: "Portfolio for UI/UX Design",
     des: "Crafting Intuitive and Visually Stunning Interfaces. Every element is meticulously designed to ensure seamless interaction and exceptional user experience.",
     img: "/p9.png",
@@ -170,7 +173,13 @@ export const projects = [
     link: "https://mohamedshata.vercel.app",
   },
   {
-    id: 11,
+    title: "Red Sea Development",
+    des: "This website provides a detailed and accurate overview of projects and the units within each project.",
+    img: "/pppp1.png",
+    iconLists: ["/wp.svg", "/ui-ux.svg", "/appointment.svg", "/domain.svg"],
+    link: "https://rsd-egypt.com/",
+  },
+  {
     title: "Red Sea Expert",
     des: "With over two decades of combined experience, Red Sea Expert was founded by professionals who share one passion — connecting people with the finest properties along Egypt’s Red Sea coast.With over two decades of combined experience, Red Sea Expert was founded by professionals who share one passion — connecting people with the finest properties along Egypt’s Red Sea coast.",
     img: "/ppp27.png",
@@ -178,7 +187,6 @@ export const projects = [
     link: "https://redseaexperts.com",
   },
   {
-    id: 12,
     title: "Redcon Suites",
     des: "At REDCON SUITES, no two experiences are the same. Each one is customised to exceed the wants, wishes, and desires of every individual guest. ",
     img: "/ppp28.png",
@@ -186,7 +194,6 @@ export const projects = [
     link: "https://redconsuites.com",
   },
   {
-    id: 13,
     title: "Creative Focus",
     des: "At Creative Focus, we redefine the digital marketing landscape, harnessing the power of cutting-edge strategies and technologies to elevate your brand presence.",
     img: "/ppp2.png",
@@ -194,7 +201,6 @@ export const projects = [
     link: "https://creativefocus.sa",
   },
   {
-    id: 14,
     title: "Infinitive ae",
     des: "Infinitive Marketing & Media is a strategy-led growth partner for businesses, founders, and executives who demand more than just creative output.",
     img: "/ppp23.png",
@@ -202,7 +208,6 @@ export const projects = [
     link: "https://infinitive.ae",
   },
   {
-    id: 15,
     title: "Binghatti CSO Mindset",
     des: "Fill in your details, and one of our expert consultants will contact you shortly to share exclusive opportunities in Binghatti’s latest developments.",
     img: "/ppp26.png",
@@ -210,7 +215,6 @@ export const projects = [
     link: "https://binghatti.csomindset.com",
   },
   {
-    id: 16,
     title: "Velora Design",
     des: "Founded in 2020, Velora Design is a creative studio specialising in architecture, interior design, and VR experiences.",
     img: "/p10.png",
@@ -218,7 +222,6 @@ export const projects = [
     link: "https://veloradesign.co",
   },
   {
-    id: 17,
     title: "Selena Development",
     des: "Selena Development is a leading real estate company specializing in creating luxurious living spaces along the Red Sea.",
     img: "/ppp33.png",
@@ -226,7 +229,6 @@ export const projects = [
     link: "https://selena-development.com",
   },
   {
-    id: 18,
     title: "Castello EG",
     des: "Castello is a company specialising in tourism, hotels and real estate development, with more than 12 years of experience in this field.",
     img: "/ppp5.png",
@@ -234,7 +236,6 @@ export const projects = [
     link: "https://castelloeg.com",
   },
   {
-    id: 19,
     title: "Veranda",
     des: "Veranda, one of Selena Development’s latest projects, unfolds across 130,000 sqm, offering a harmonious blend of exotic gardens and serene lagoons that provide homeowners with breathtaking, yet private, views.",
     img: "/ppp8.png",
@@ -242,7 +243,6 @@ export const projects = [
     link: "https://veranda.selena-development.com",
   },
   {
-    id: 20,
     title: "Khraibka Marine",
     des: "With a strong legacy of excellence and global reach, we specialize in providing integrated maritime services and general trade, enhancing opportunities for success and development in global markets.",
     img: "/ppp32.png",
@@ -250,7 +250,6 @@ export const projects = [
     link: "https://khraibkamarine.com",
   },
   {
-    id: 21,
     title: "Sahl Spa",
     des: "At Sahl Spa & Hammam, every treatment is tailored to your needs—because you deserve more than a standard treatment.",
     img: "/ppp31.png",
@@ -258,7 +257,6 @@ export const projects = [
     link: "https://sahlspa.com",
   },
   {
-    id: 22,
     title: "Cyberac Ademy Hub",
     des: "Welcome to Cyber Academy Hub. Your gateway to unlocking cybersecurity excellence. Founded by a team of experienced professionals with a shared vision for a safer digital landscape, we offer comprehensive licensing and training for all levels.",
     img: "/ppp30.png",
@@ -266,7 +264,6 @@ export const projects = [
     link: "https://cyberacademyhub.com",
   },
   {
-    id: 23,
     title: "Zia Egypt",
     des: "At ZIA Egypt, we specialize in delivering world-class design and construction solutions. From architecture to interior and landscape design, our comprehensive services are crafted to meet the diverse needs of our clients.",
     img: "/ppp13.png",
@@ -274,7 +271,6 @@ export const projects = [
     link: "https://ziaegypt.com",
   },
   {
-    id: 24,
     title: "See Fun Tours",
     des: "See Fun Tours Egypt offers unforgettable travel experiences across Egypt’s most iconic and hidden destinations.",
     img: "/ppp14.png",
@@ -282,7 +278,6 @@ export const projects = [
     link: "https://seefuntourseg.com",
   },
   {
-    id: 25,
     title: "BMV Estate Agency",
     des: "BMV Estate Agency is a property company based in Hurghada, Red Sea, offering direct access to high-quality homes, apartments, and investment opportunities.",
     img: "/ppp18.png",
@@ -290,7 +285,6 @@ export const projects = [
     link: "https://bmvestateagency.com",
   },
   {
-    id: 26,
     title: "Red Sea Wonders",
     des: "Experience the perfect blend of luxury, adventure, and culture. From vibrant marine life to ancient Egyptian heritage",
     img: "/p11.png",
@@ -298,7 +292,6 @@ export const projects = [
     link: "https://redseawonders.com",
   },
   {
-    id: 27,
     title: "EDU Campers",
     des: "EDU Campers Academy offers more than just tutoring; it is a comprehensive platform for learning and growth. Using innovative educational techniques.",
     img: "/p12.png",
@@ -306,7 +299,6 @@ export const projects = [
     link: "https://educampers.com",
   },
   {
-    id: 28,
     title: "Cure",
     des: "Cure is a specialised chemical manufacturing and marketing company delivering high-performance and sustainable chemical solutions.",
     img: "/ppp22.png",
@@ -314,7 +306,6 @@ export const projects = [
     link: "https://cure-eg.com",
   },
   {
-    id: 29,
     title: "Cairo Press",
     des: "Cairo Press stands at the forefront of the printing and publications realm, embodying a legacy of expertise and innovation.",
     img: "/ppp4.png",
@@ -322,7 +313,6 @@ export const projects = [
     link: "https://cairo-press.com",
   },
   {
-    id: 30,
     title: "Elzidan Rent Car",
     des: "Book from Al-Zaidan’s modern fleet with transparent prices and unmissable offers. Your drive starts with us with safety and confidence, and easy booking in minutes.",
     img: "/ppp29.png",
@@ -330,7 +320,6 @@ export const projects = [
     link: "https://elzidanrentcar.com",
   },
   {
-    id: 31,
     title: "Storia",
     des: "Nestled along the serene coastline of Hurghada, Storia Del Mare is a luxurious residential haven that celebrates the beauty of seaside living.",
     img: "/ppp16.png",
@@ -338,7 +327,6 @@ export const projects = [
     link: "https://storia.castelloeg.com",
   },
   {
-    id: 32,
     title: "Atlantis",
     des: "Atlantis is designed to be your personal oasis. Buildings are modern, low-rise, and thoughtfully spaced to ensure privacy, natural light, and open views.",
     img: "/ppp20.png",
@@ -346,7 +334,6 @@ export const projects = [
     link: "https://atlantis.castelloeg.com",
   },
   {
-    id: 33,
     title: "All Projects",
     des: "Castello Developments is a distinguished real estate developer known for delivering premium residential and resort projects along the Red Sea coast.",
     img: "/ppp17.png",
@@ -354,7 +341,6 @@ export const projects = [
     link: "https://projects.castelloeg.com",
   },
   {
-    id: 34,
     title: "Ali Services",
     des: "In a world where more people want to avoid driving, traffic & parking hassles. Yet want the essence of luxury rides.",
     img: "/ppp7.png",
@@ -362,7 +348,6 @@ export const projects = [
     link: "https://aliservices.ch",
   },
   {
-    id: 35,
     title: "Alarabia Development",
     des: "At AL ARABIA DEVELOPMENT, we create exceptional communities that blend luxury, innovation, and sustainability. Discover the perfect home for your dreams.",
     img: "/ppp15.png",
@@ -370,7 +355,6 @@ export const projects = [
     link: "https://alarabiadevelopment.com",
   },
   {
-    id: 36,
     title: "Trulia EG",
     des: "At Trulia.eg, we are dedicated to curating the most exquisite real estate offerings in Egypt’s Red Sea region.",
     img: "/ppp9.png",

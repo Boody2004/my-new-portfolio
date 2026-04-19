@@ -100,8 +100,13 @@ export const projects = [
     title: "Tourism Platform",
     des: "A tourism web system project developed as part of my personal portfolio, showcasing a complete website solution with trip management.",
     img: "/pppp2.png",
-    iconLists: ["/next.svg", "/tailwind.svg", "/supabase.svg"],
-    link: "https://tourism-platform.vercel.app",
+    iconLists: [
+      "/next.svg",
+      "/tailwind.svg",
+      "/supabase.svg",
+      "management.svg",
+    ],
+    link: "https://tourism-platform-delta.vercel.app",
   },
   {
     title: "OW Bikes",

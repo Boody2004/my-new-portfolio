@@ -137,6 +137,18 @@ export const projects = [
     link: "https://brainwave-sepia.vercel.app",
   },
   {
+    title: "Broker List Platform",
+    des: "A broker listing web system built with Next.js..... manage listings, and track client inquiries through an integrated dashboard.",
+    img: "/pppp7.png",
+    iconLists: [
+      "/next.svg",
+      "/tailwind.svg",
+      "/supabase.svg",
+      "management.svg",
+    ],
+    link: "https://broker-list-platform.vercel.app",
+  },
+  {
     title: "Metaverse",
     des: "Elevating Web Experiences with Cutting-Edge Animation Framer Techniques. Transforming Visions into Dynamic Digital Realities through Innovative Design and Precise Execution.",
     img: "/p4.png",
